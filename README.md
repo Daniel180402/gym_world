@@ -1,15 +1,25 @@
 # Gym_World
 #### Video Demo:  <URL HERE>
-#### Description: In last years people are more likely to stay at home and to study and work for lots of hours a day, it is very important to train an for that reason i developed this app that helps you to stay in shape all while staying in the confort of your home.
-In this web app you have the option to select which body part to train and the app will filter the data it's gets from the API to find the best exercises for the selected bodypart, you can choose any of the exercises the web app shows you and that will bring you to the detail page of that exercise, showing you the name and the gif of that exercises to better understand of to perform it.
+#### Description: In last years people are more likely to stay at home and to study and work for lots of hours a day, it is very important to train an for that reason i developed this app that helps you to stay in shape all while staying in the confort of your home. In this web app you have the option to select which body part to train and the app will filter the data it's gets from the API to find the best exercises for the selected bodypart, you can choose any of the exercises the web app shows you and that will bring you to the detail page of that exercise, showing you the name and the gif of that exercises to better understand of to perform it.
 If you want more info about it, if you scroll down on the exercise detail page there will be a few videos that will bring you directly to that youtube video to better understand it.
 If you don't like that exercise or want to do another one on the lower part of the page you can find similar exercises that train a specific body part or exercises that use a specific equipment.
   
 ## Pages
 
-
+### Home page
+  The Home page is made by several components, such as:
+  Navbar: A simple navbar with logo, and two links that you can use to navigate the main parts of tha Home.
+  HeroBanner: Also knows as the jumbotron, it's the part of the page where you can see the catch phrase of the page with a simple but catchy design.
+  SearchExercises: In this section you can search for a specific exercise, enter a specific bodypart or an equipment and the web app will filter the API to show only the desired workouts
+  HorizontalScrollbar: In this section you have the option to filter the API by selecting which bodypart you want to train and the web app will show only thoose exercises.
+  Exercises: In this part of the home page you will get all the results of the serachExercises and HorizontalScrollbar components, this part divides all the results is several pages using Pagination, only showing 9       results for page. These cards are all clickable and this prings you to the detail page of that exercise.
+  Footer: A simple footer for the pages
   
-  
+### ExerciseDetail
+  The exercise detail page gives you more info about a specific exercise and gives you other exercises to do that have effect on that specific body part or that use the same equipment.
+  Detail: The detail component shows you the gif of the exercise to better understand it, and gives a small description, also it says what body part it has effect on and which equipment is needed.
+  ExerciseVideo: The exercise video component simply gives you a few clickable card of youtube videos that can help you understand how to do that specific exercise
+  SimilarExercises: This component shows you similar exercices that help you workout that specific body part or use the same equipment type.
   
 
 # Getting Started with Create React App
