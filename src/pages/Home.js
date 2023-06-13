@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Box } from '@mui/material';
 
-import HeroBanner from '../componets/HeroBanner';
-import SearchExercises from '../componets/SearchExercises';
-import Exercises from '../componets/Exercises';
+import HeroBanner from '../components/HeroBanner';
+import SearchExercises from '../components/SearchExercises';
+import Exercises from '../components/Exercises';
 
 const Home = () => {
     const [bodyPart, setBodyPart] = useState('all');
