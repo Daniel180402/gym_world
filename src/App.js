@@ -5,8 +5,8 @@ import { Box } from "@mui/material";
 import './App.css';
 import ExerciseDetail from "./pages/ExerciseDetail";
 import Home from "./pages/Home";
-import Navbar from "./componets/Navbar";
-import Footer from "./componets/Footer";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const App = () => {
     return (
