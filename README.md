@@ -1,5 +1,5 @@
 # Gym_World
-#### Video Demo:  <URL HERE>
+#### Video Demo:  https://youtu.be/Vvv3I9Uzb9A
 #### Description: In last years people are more likely to stay at home and to study and work for lots of hours a day, it is very important to train a for that reason I developed this app that helps you to stay in shape all while staying in the comfort of your home. In this web app you have the option to select which body part to train, and the app will filter the data it's gets from the API to find the best exercises for the selected body part, you can choose any of the exercises the web app shows you and that will bring you to the detail page of that exercise, showing you the name and the GIF of that exercises to better understand of to perform it.
 If you want more info about it, if you scroll down on the exercise detail page, there will be a few videos that will bring you directly to that YouTube video to better understand it.
 If you don't like that exercise or want to do another one, on the lower part of the page you can find similar exercises that train a specific body part or exercises that use specific equipment.
